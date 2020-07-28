@@ -1,7 +1,9 @@
 /**
+ * Opens Google Maps if found on device with the directions selection screen
  *
  * @param lat Latitude of the required destation
  * @param long Longitude of the required destation
+ *
  */
 export const openMapsWithDirection = (lat: number, long: number) => {
   const url = `http://maps.google.com/?daddr=${lat},${long}`;
